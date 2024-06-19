@@ -6,6 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Budget from './components/Budget';
 
 // Add code to import the other components here under
+import AllocationForm from './components/AllocationForm';
+import ExpenseItem from './components/ExpenseItem';
+import ExpenseList from './components/ExpenseList';
+import ExpenseTotal from './components/ExpenseTotal';
+import Remaining from './components/Remaining';
+
 
 
 import { AppProvider } from './context/AppContext';
@@ -17,6 +23,9 @@ const App = () => {
                     <div className='row mt-3'>
                         {
                             /* Add Budget component here */
+                            <div className='col-sm'>
+                                <Budget />
+                            </div>
                         }        
 
                         {
