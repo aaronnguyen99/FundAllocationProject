@@ -30,14 +30,25 @@ const App = () => {
 
                         {
                             /* Add Remaining component here*/
+                            <div className='col-sm'>
+                            <Remaining />
+                        </div>
                         }        
 
                         {
                             /* Add ExpenseTotal component here */
+                            <div className='col-sm'>
+                            <ExpenseTotal />
+                        </div>
                         }        
                        
                         {
                             /* Add ExpenseList component here */
+                            <div className='row '>
+                            <div className='col-sm'>
+                                <ExpenseList />
+                            </div>
+                        </div>
                         }         
 
                         {
@@ -46,6 +57,11 @@ const App = () => {
 
                         {
                             /* Add AllocationForm component here under */
+                            <div className='row '>
+                            <div className='col-sm'>
+                                <AllocationForm />
+                            </div>
+                        </div>
                         }        
 
                 </div>
